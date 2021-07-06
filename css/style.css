@@ -566,6 +566,54 @@ button:focus {
     Contact info
 -------------------------------------------------------------------*/
 
+
+#contact .section-title {
+  padding-bottom: 0;
+}
+
+#contact .text-success,
+#contact .text-danger {
+  display: none;
+}
+
+#contact .form-control {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  transition: all ease-in-out 0.4s;
+}
+
+#contact .form-control:hover,
+#contact .form-control:focus {
+  border-bottom-color: var(--secondary);
+}
+
+#contact input {
+  height: 55px;
+}
+
+#contact button#cf-submit {
+  background-color: var(--primary);
+  border-radius: 0;
+  border: 0;
+  color: #ffffff;
+  font-weight: bold;
+  height: 50px;
+}
+
+#contact button#cf-submit:hover {
+  background: var(--secondary);
+  color: #ffffff;
+}
+
+
+
+
 .contact-imfo-box {
   background-color: var(--secondary);
   padding: 30px 0;
